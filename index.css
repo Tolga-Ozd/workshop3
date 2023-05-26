@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .navbar {
+    height: 80px;
+    background-color: #35424A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 15px;
+    border-bottom: 1px solid #A9508B;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .nav__right a {
+    font-size: 16px;
+  }
+  .nav__right .list-item {
+    list-style-type: none;
+  }
+  .nav__right .nav-list {
+    display: flex;
+    gap: 15px;
+  }
+  .list-item .active {
+    color: #A9508B;
+  }
+
+  .content {
+    min-height: calc(100vh - 140px);
+  }
+  #banner {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-image: url(./img/germantrio_thumb.webp);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    justify-content:top;
+    padding: 0 20px;
+    gap: 10px;
+    color: white;
+    align-items: center;
+  }
+  #banner h1{
+      font-size: 40px;
+      /* margin-bottom: 20px; */
+  }
+
+  #banner p{
+    font-size:18px ;
+  }
+
+  .brand{
+    display: flex;
+    height: 100px;
+    justify-content:space-around;
+    background-image: linear-gradient(0deg, rgb(124, 118, 124) , rgb(8, 48, 53));
+    opacity: 0.95;
+  }
+
+  /* .brand .mercedes  .bmw  .audi{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 5px;
+    line-height: 20px;
+  } */
+
+
+  .mercedes{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 5px;
+    line-height: 20px;
+  }
+
+  .mercedes:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    color: rgb(226, 214, 214); 
+  }
+  .mercedes img{
+    height: 55px;
+    margin-top: 5px;
+   
+  }
+
+  .bmw img{
+    height: 55px;
+    margin-top: 5px;
+  }
+
+  .bmw{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 5px;
+    line-height: 20px;
+  }
+  .bmw:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    color: rgb(226, 214, 214); 
+  }
+
+  .audi img{
+    height: 55px;
+    margin-top: 5px;
+    width: 130px;
+  }
+  .audi{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 5px;
+    line-height: 20px;
+  }
+  .audi:hover{
+    opacity: .5;
+    cursor: pointer;
+    color: rgb(226, 214, 214); 
+  }
+
+
+  .search__area{
+      height: 100px;
+      background-image: linear-gradient(0deg,  rgb(8, 48, 53) ,rgb(124, 118, 124));
+      display: flex;
+      justify-content:space-between;
+      align-items: center;
+      color: white;
+      padding:0 50px;
+     border-top: 1px solid rgb(94, 89, 94);
+  }
+  .search__area-right input[type="email"]{
+  padding: 4px;
+  }
+  .search__area-right input[type="button"]{
+      padding: 4px;
+      background-color: rgb(187, 94, 44);
+      color: white;
+  }
+
+  .search__area-right .button:hover {
+    cursor: pointer;
+    background-color:aquamarine ;
+    color: black;
+  }
+
+
+
+.search__area-left{
+      font-size: 24px;
+  }
+
+.footer {
+  height: 60px;
+  display:flex;
+  font-family: Verdana, monospace, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  flex-direction: column;
+  justify-content:center;
+  background-color: #657986;
+  border-top: 2px solid #A9508B;
+  background-image: linear-gradient(0deg,  rgb(105, 195, 201) ,rgb(215, 230, 199));
+}
+
+.section img{
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+.section img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}

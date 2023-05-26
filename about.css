@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:gainsboro; */
+  }
+  .navbar {
+    height: 80px;
+    background-color: #35424A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 50px;
+    border-bottom: 1px solid #A9508B;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .nav__right a {
+    font-size: 16px;
+  }
+  .nav__right .list-item {
+    list-style-type: none;
+  }
+  .nav__right .nav-list {
+    display: flex;
+    gap: 15px;
+  }
+  .list-item .active {
+    color: #A9508B;
+  }
+
+
+.search__area{
+    height: 90px;
+    background-image: linear-gradient(0deg,  rgb(8, 48, 53) ,rgb(124, 118, 124));
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    padding:0 50px;
+    border-top: 1px solid rgb(94, 89, 94);
+}
+
+.search__area-right input[type="email"]{
+  padding: 4px;
+  }
+
+.search__area-right input[type="button"]{
+      padding: 4px;
+      background-color: rgb(187, 94, 44);
+      color: white;
+}
+
+.search__area-right .button:hover {
+    cursor: pointer;
+    background-color:aquamarine ;
+    color: black;
+  }
+
+.search__area-left{
+      font-size: 24px;
+  }
+
+main{
+   
+}
+
+.aboutus {
+    display: flex;
+    min-height: calc(100vh - 250px);
+    background-color:gainsboro;
+}
+
+.aboutus .left {
+    margin: 30px;
+    width: 60%;
+}
+
+.aboutus .under{
+    background-color: #c087ad;
+    padding: 15px;
+}
+
+.aboutus .right{
+    margin: 30px;
+    padding: 15px;
+    width: 40%;
+    background-color: #c087ad;
+    height: 230px;
+    font-size: 18px;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.aboutus p {
+  font-size: 18px;
+  line-height: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.footer {
+  height: 80px;
+  display:flex;
+  font-family: Verdana, monospace, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  flex-direction: column;
+  justify-content:center;
+  background-color: #657986;
+  border-top: 2px solid #A9508B;
+  background-image: linear-gradient(0deg,  rgb(105, 195, 201) ,rgb(215, 230, 199));
+}
+
+.section img{
+  height: 20px;
+  margin-top: 5px;
+  margin-left: 7px;
+}
+.section img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
